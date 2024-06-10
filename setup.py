@@ -5,6 +5,6 @@ setup(name='ip_adapter',
       description='implementation of the IPAdapter models for HF Diffusers',
       author='cubiq',
       url='https://github.com/cubiq/Diffusers_IPAdapter',
-      packages=find_packages(where='ip_adapter'),
-      package_dir={"": "ip_adapter"}
+      packages=find_packages(where='.'),
+      package_dir={"": "."}
 )
